@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  color: #ffffff;
+  background-color: #0f0f10;
+}
+
+.maindiv {
+  padding-left: 260px;
+  padding-right: 260px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 90px;
+  padding: 0px 20px;
+}
+
+.navlist {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+}
+.navbar li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.shopbtn {
+  width: 120px;
+  height: 43px;
+  background-color: #1e1e21;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.shopbtn:hover {
+  cursor: pointer;
+}
+
+.maincontent {
+  width: 1350px;
+  height: 550px;
+  display: flex;
+}
+
+.BeatsHeadphone {
+  position: relative;
+  left: 100px;
+  bottom: 200px;
+}
+
+.onear {
+  margin-left: 30px;
+}
+
+.heading1 {
+  padding-left: 150px;
+  padding-top: 40px;
+}
+/* .heading1 h1,h3,p{
+    margin-bottom: 25px;
+} */
+
+.addtobag {
+    border: none;
+  display: flex;
+  background-color: #1e1e21;
+  width: fit-content;
+  height: 45px;
+  border-radius: 10px;
+  padding: 10px 25px;
+  align-items: center;
+  gap: 15px;
+}
+
+.addtobag:hover {
+  cursor: pointer;
+}
+
+.socialhandles1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 10px;
+  position: relative;
+  top: -40px;
+}
+
+.specs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: small;
+  margin-top: 30px;
+}
+.specs2 {
+  display: flex;
+}
+.case {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+.group {
+  background-color: #1e1e21;
+  width: 150px;
+  height: 50px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 8px;
+}
+
+.buyproduct {
+  margin-top: 50px;
+  background-color: #1e1e21;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 40px 0;
+  border-radius: 15px;
+}
+.butnowbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  width: 110px;
+  height: 40px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+}
+.productLogo {
+  scale: 0.9;
+  display: flex;
+  flex-direction: column;
+}
+
+.productImages {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productimages {
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.box {
+  width: 130px;
+  height: 130px;
+  background-color: #181a1b;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+.box > img {
+  width: 75px;
+  height: 100px;
+  position: absolute;
+  /* bottom: 30px; */
+  top: -40px;
+  left: 28px;
+}
+
+.shopingbox {
+  position: absolute;
+  /* border: 1px solid red; */
+  width: 100%;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  bottom: 0px;
+}
+
+.shopingbox p {
+  font-size: 12px;
+}
+.shopingbox span{
+    color: #bdc0c2;
+}
+
+.shopingbox img {
+  width: 13px;
+  height: 13px;
+}
+
+.shopingbox div {
+  background-color: #000000;
+  padding: 2px 6px;
+  border-radius: 8px;
+}
+/* footer css */
+.footer {
+  margin: 100px 0px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: #BDC0C2;
+}
+.footer ul li{
+    list-style: none;
+}
+.footer ul li:first-child{
+    margin-bottom: 10px;
+}
+
+.footer ul li:first-child a{
+    font-size: 20px;
+    color: #ffffff;
+
+} 
+
+.footer div:first-child {
+  background-color: #181a1b;
+  border-radius: 8px;
+  padding: 5px 10px;
+  display: flex;
+}
+
+.subscribeANDicons div:first-child input {
+  background-color: transparent;
+  border: none;
+}
+
+.emailSubscribe {
+  display: flex;
+}
+
+.arrowup {
+  position: absolute;
+  right: 100px;
+}
+.subscribeANDicons {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.arrowANDsubscribe {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background-color: #0a0a0b;
+  padding: 10px 20px;
+  border: none;
+}
+.last4icons{
+    display: flex;
+    gap: 20px;
+}
